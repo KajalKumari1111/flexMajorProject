@@ -1,0 +1,234 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.section1{
+    background-color: black;
+    padding: 20px 80px ;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 70% 82%, 0 100%);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.nav-center {
+    margin-top: 15px;
+    
+} 
+.nav-contact{
+    margin: 15px 10px 0px 350px;
+}
+.nav-contact button{
+   padding: 10px 40px;
+   background-color: rgba(74, 203, 203, 0.969);
+   border: 1px solid rgba(74, 203, 203, 0.969);
+
+}
+.nav-center a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+
+}
+.section1-center{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.section1-center img{
+    margin: 50px 100px 10px 150px;
+    height: 70vh;
+    width: 50vh;
+}
+.section1-content{
+     margin: 20px;
+    font-size: 20px;
+}
+.section1-content h1,h2,p, button{
+    margin: 0px 12px 25px 30px;
+}
+.section1-content h2{
+    color: rgba(74, 203, 203, 0.969);
+}
+.section1-content h1{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.section1-content button, .section4 button, .section8 button{
+    padding: 10px 42px;
+    background-color: black;
+    color: rgba(74, 203, 203, 0.969);
+    border: 1.5px solid rgba(74, 203, 203, 0.969);
+}
+span{
+    color: rgba(74, 203, 203, 0.969);
+}
+
+
+
+
+.section2{
+    display: flex;
+    margin: 100px 10px 0px 200px;
+}
+.about img{
+    height: 50vh;
+    width: 40vh;
+}
+.about-detail{
+    margin: 70px 140px;
+}
+.about-heading{
+    font-size: 24px;
+}
+.about-parah{
+    color: rgb(134, 135, 136);
+    font-size: 18px;
+}
+.about-icon{
+   margin-left: 30px;
+   margin-top: 50px;
+}
+.about-detail .fa-thin{
+      border: 1px solid black;
+      padding: 8px;
+      background-color: black;
+      color: white;
+      border-radius: 60%;
+}
+
+
+.section3{
+    background-color: rgba(245, 245, 245, 0.868);
+    padding-top: 100px;
+    margin-top: 100px;
+    height: 120vh;
+}
+.service-heading, .client{
+   text-align: center;
+}
+.service-container2{
+    display: flex;
+    justify-content: space-between;
+}
+.service, .card{
+    align-self: center;
+    margin: 120px 60px 0px 50px;
+    background-color: white;
+}
+.service img{
+    margin-top: -70px;
+}
+.service img, h3{
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.service p, .client p{
+    color: rgb(154, 155, 157);
+    padding: 15px;
+}
+
+.section4{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./assets/images/camera.png);
+    height: 60vh;
+    text-align: center;
+    color: white;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 67% 80%, 0 100%);
+} 
+.section4 h1{
+    padding: 70px 0px 10px 0px;
+    font-size: 50px ;
+}
+.section4 button, .section8 button{
+    background-color:  rgba(74, 203, 203, 0.969);
+    color: black;
+    font-weight: 600;
+} 
+.client h2, img{
+    margin: 120px 0px 2px 0px;
+}
+.p{
+    color: rgb(154, 155, 157);
+    margin: 40px 280px 10px 280px;
+}
+hr{
+ border: dashed #a7eaea 5px;
+ border-bottom: none;
+ width: 4%;
+ margin: 90px auto;
+}
+.section6{
+    background-color: rgba(245, 245, 245, 0.868);
+    padding-top: 1px;
+    padding-bottom: 80px;
+}
+.section6 p{
+    padding-bottom: 100px;
+}
+.section6 img{
+    margin: 10px 10px 10px 10px;
+}
+.section7{
+    background-color: black;
+    height: 150vh;
+    color: white;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 67% 80%, 0 100%);
+    padding-top: 1px;
+}
+.section7-cards{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+.card img{
+    margin-top:-50px;
+}
+.card p, .contact-details p, .section9 p{
+    color: rgba(121, 120, 120, 0.868);
+}
+.card h4, a{
+    padding:20px 0px 10px 27px;
+
+}
+.contact{
+    display: flex;
+    justify-content: center;  
+    
+}
+.contact-details{
+    margin: -40px 75px 0px 70px;
+    text-align: center;
+   
+}
+.contact-details h1{
+    padding: 20px;
+}
+
+.form{
+  margin: 100px 0px 0px 100px ; 
+}
+.form input, textarea{
+ padding: 10px 375px 10px 10px; 
+ margin: 15px;
+ border: 1px solid;
+ border-color: rgb(227, 221, 221);
+}
+.subject{
+width: 82%;
+}
+.section8 button{
+ margin: 30px 0px 100px 550px;
+}
+.section9{
+background-color: black;
+text-align: center;
+height: 60vh;
+}
+.section9 svg{
+margin: 40px 10px 50px 30px;
+}
+
